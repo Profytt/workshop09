@@ -1,3 +1,57 @@
-.header (
-    
-)
+.page {
+    background-color: rgb(134, 134, 123);
+}
+
+.navigation {
+    background: rgb(184, 183, 183);
+    display: flex;
+    justify-content: space-between;
+    padding: 20pxi;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: 22px;
+}
+
+.name {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-size: 24px;
+}
+
+.statement {
+    font-size: 36px;
+    font-weight: 200;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.heading { 
+    font-size: 36px;
+
+}
+
+.paragraph {
+}
+
+.topic {
+    font-size: 22px;
+}
+
+.topics {
+    border-style: double;
+    margin: 5px;
+}
+
+.paragraph {
+    color: rgb(33, 34, 36);
+}
+
+.para {
+    font-size: 24px;
+}
