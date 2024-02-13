@@ -36,8 +36,6 @@
 
 }
 
-.paragraph {
-}
 
 .topic {
     font-size: 22px;
@@ -50,8 +48,13 @@
 
 .paragraph {
     color: rgb(33, 34, 36);
+    display: flex;
+    margin: 10px;
+    padding: 10px;4
+    flex-flow: right: ;;
 }
 
 .para {
     font-size: 24px;
 }
+
