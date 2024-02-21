@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta myname="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="page">
     <div class="navigation">
-      <h3 class="name">Dezmon Coleman</h3>
+      <h3 class="myname">Dezmon Coleman</h3>
       <ul class="menu">
         <a href="index.html"><li>Home</li></a>
         <a href="about.html"><li>About</li></a>
@@ -48,5 +48,19 @@
         </p>
       </div>
     </div>
+</div>
+<form action="" method="get" class="namesubmit">
+  <div class="namesubmit">
+    <label for="name">Enter your name:</label>
+    <input type="text" name="name" id="name" required />
+  </div>
+  <div class="namesubmit">
+    <label for="email">Enter your email:</label>
+    <input type="email" name="email" id="email" required />
+  </div>
+  <div class="namesubmit">
+      <input type="submit" value="submit">
+  </div>
+</form>
   </body>
 </html>
